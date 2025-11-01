@@ -1,0 +1,26 @@
+div {
+    margin: 32px;
+}
+
+.recipeName {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-align: center;
+}
+
+.recipe {
+    border: 5px double lightgrey;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: white;
+}
+
+.ingredients {
+    list-style: square;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #f9f9f9;
+}
